@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	int a=1;
+	int b=1;
+	int c=a+b;
+	printf("%d %d %d ",a,b,c);
+	int i;
+	for(i=1;i<=8;i++)
+	{
+		a=b;
+		b=c;
+		c=a+b;
+		printf("%d ",c);
+}
+	
+	return 0;
+}
